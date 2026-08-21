@@ -1,0 +1,21 @@
+:root {
+    --text: #1c1917;
+}
+
+
+header {
+    background-color: grey;
+}
+
+p {
+    color: var(--text); 
+}
+
+/*****************
+* GENERICS
+*****************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
