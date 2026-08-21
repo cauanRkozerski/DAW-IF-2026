@@ -15,11 +15,26 @@ body {
     background-color: #fafaf9;
 }
 
+.container {
+   width: min(100%, 1920px); 
+   margin-inline: auto;
+}
+
+/***********************
+CABECALHO
+***********************/
+
 header {
     background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+header .container {
+   display: flex;
+   align-items: center;
+   gap: 0.75rem;
 }
 
 header .brand {
